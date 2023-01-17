@@ -1,0 +1,15 @@
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/bin/Debug/net7.0/Examples#9_IntroArray
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/bin/Debug/net7.0/Examples#9_IntroArray.deps.json
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/bin/Debug/net7.0/Examples#9_IntroArray.runtimeconfig.json
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/bin/Debug/net7.0/Examples#9_IntroArray.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/bin/Debug/net7.0/Examples#9_IntroArray.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.csproj.AssemblyReference.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.AssemblyInfoInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.AssemblyInfo.cs
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.csproj.CoreCompileInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/refint/Examples#9_IntroArray.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/Examples#9_IntroArray.genruntimeconfig.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#9_IntroArray/obj/Debug/net7.0/ref/Examples#9_IntroArray.dll
