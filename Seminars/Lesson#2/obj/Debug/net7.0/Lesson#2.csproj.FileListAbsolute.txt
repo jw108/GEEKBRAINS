@@ -1,0 +1,15 @@
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/bin/Debug/net7.0/Lesson#2
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/bin/Debug/net7.0/Lesson#2.deps.json
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/bin/Debug/net7.0/Lesson#2.runtimeconfig.json
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/bin/Debug/net7.0/Lesson#2.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/bin/Debug/net7.0/Lesson#2.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.csproj.AssemblyReference.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.AssemblyInfoInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.AssemblyInfo.cs
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.csproj.CoreCompileInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/refint/Lesson#2.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/Lesson#2.genruntimeconfig.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/Lesson#2/obj/Debug/net7.0/ref/Lesson#2.dll

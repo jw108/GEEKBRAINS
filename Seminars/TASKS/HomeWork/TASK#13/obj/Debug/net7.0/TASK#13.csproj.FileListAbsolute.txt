@@ -1,0 +1,15 @@
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.csproj.AssemblyReference.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.AssemblyInfoInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.AssemblyInfo.cs
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.csproj.CoreCompileInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/bin/Debug/net7.0/TASK#13
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/bin/Debug/net7.0/TASK#13.deps.json
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/bin/Debug/net7.0/TASK#13.runtimeconfig.json
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/bin/Debug/net7.0/TASK#13.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/bin/Debug/net7.0/TASK#13.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/refint/TASK#13.dll
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/TASK#13.genruntimeconfig.cache
+/Users/jw108/Desktop/GEEKBRAINS/Seminars/TASKS/TASK#13/obj/Debug/net7.0/ref/TASK#13.dll
