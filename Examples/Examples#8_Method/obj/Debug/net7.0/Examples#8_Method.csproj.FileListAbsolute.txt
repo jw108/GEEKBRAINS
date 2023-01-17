@@ -1,0 +1,15 @@
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.csproj.AssemblyReference.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.AssemblyInfoInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.AssemblyInfo.cs
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.csproj.CoreCompileInputs.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/bin/Debug/net7.0/Examples#8_Method
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/bin/Debug/net7.0/Examples#8_Method.deps.json
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/bin/Debug/net7.0/Examples#8_Method.runtimeconfig.json
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/bin/Debug/net7.0/Examples#8_Method.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/bin/Debug/net7.0/Examples#8_Method.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/refint/Examples#8_Method.dll
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.pdb
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/Examples#8_Method.genruntimeconfig.cache
+/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#8_Method/obj/Debug/net7.0/ref/Examples#8_Method.dll
