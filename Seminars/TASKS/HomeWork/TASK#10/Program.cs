@@ -7,16 +7,27 @@
  */
 
 Console.Clear();
-Console.WriteLine("Введите трехзначное число: ");
+Console.WriteLine("Введите любое число больше нуля: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num < 0)
+if (num <= 0)
 {
     Console.WriteLine("Введите число больше нуля");
 }
-else if (num > 99 && num < 999)
-{
-    int firdNum = num % 100;
-    int secondNum = firdNum / 10;
-    Console.WriteLine($"Вторая цифра введенного числа --> {secondNum}");
+
+if(num > 0)
+{   
+    Console.WriteLine($"Ввидете порядковый номер цифры из числа {num}");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+    string num1 = Convert.ToString(num);
+    if (num2 == 0) 
+    {
+        Console.WriteLine($"Да ты походу программист, порядковый номер {num2} не существует в обычной жизни, попробуй еще разок.");
+    }
+    else if (num2 <= num1.Length) 
+    {
+        num2--;
+        Console.WriteLine($"Число {num1[num2]} --> порядковый номер {num2+1} --> в числе {num1}");
+    }
+    else Console.WriteLine($"В числе {num1} нет столько цифр");
+    
 }
-else Console.WriteLine("Увы ! Вы ввели не трехзначное число");
