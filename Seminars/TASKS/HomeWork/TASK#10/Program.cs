@@ -9,7 +9,11 @@
 Console.Clear();
 Console.WriteLine("Введите трехзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num > 99 && num < 999)
+if (num < 0)
+{
+    Console.WriteLine("Введите число больше нуля");
+}
+else if (num > 99 && num < 999)
 {
     int firdNum = num % 100;
     int secondNum = firdNum / 10;
