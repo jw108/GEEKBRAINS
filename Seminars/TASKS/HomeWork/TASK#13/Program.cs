@@ -17,7 +17,6 @@ if (num < 0)
 }
 else if (num > 99)
 {
-    string num1 = Convert.ToString(num);
-    Console.WriteLine($"Третья цифра введенного числа --> {num1[2]}");
+    Console.WriteLine((num %10) %10 );
 }
 else Console.WriteLine("Третьей цифры нет");
