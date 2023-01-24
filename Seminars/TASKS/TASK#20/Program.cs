@@ -1,4 +1,4 @@
-﻿/* 
+/* 
 Задача №20.
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
@@ -50,7 +50,3 @@ Console.WriteLine("Введите координаты точки 2: ");
 string[] sArr2 = Console.ReadLine().Split(' ');
 int num3 = Convert.ToInt32(sArr2[0]);
 int num4 = Convert.ToInt32(sArr2[1]);
-
-double result = Math.Round(Math.Sqrt(Math.Pow((num3 - num1), 2)+ Math.Pow((num4 - num2),2)), 3);
-Console.Write(result);
-  */
