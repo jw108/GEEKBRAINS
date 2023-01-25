@@ -1,13 +1,18 @@
 ﻿Console.Clear();
-int Max(int arg1, int arg2, int arg3)
+int Max(int arg1, int arg2, int arg3) // Метод (Функция) возвращает целое число имя функции - Max (имеет три целых аргумента)
 {
-    int result = arg1;
-    if (arg2 > result) result = arg2;
-    if (arg3 > result) result = arg3;
-    return result;
+    int result = arg1;                // Определяем внутренний result где будет храниться значение первого аргумента(максимального)
+    if (arg2 > result) result = arg2; // Опереция ветвление сравнивает два аргумента и далее переменной result присваивает новое значение если True  
+    if (arg3 > result) result = arg3; // ---/----/----/ 
+    return result;                    // Возвращает значение с соответствующим типом данных
 }
-
-
+double f(double x)                   // Возвращаемый тип данных double имя метода f (принимаемый тип данных double аргумент x)
+{
+    double result = x * x + 1;       // Математическое вычисление с присваиванием значения в переменную result
+    return result;                  // Возвращаемое значение метода соответствующее типу данных
+}
+double num = f(2);                  // Определение переменной num с присвоением результата вычисления методом f со значением 2 аргумента x
+Console.WriteLine(num);             // Вывод результат в консоль
 
 
 int a1 = 15;
@@ -25,10 +30,10 @@ int c3 = 153;
 // int max3 = Max (a3,b3,c3);
 // int max = Max(max1, max2, max3);
 
-int max = Max(
-    Max(a1, b1, c1),
-    Max(a2, b2, c2),
-    Max(a3, b3, c3));
+int max = Max(              // Создаем переменную max с присвоением результата вычислений методом Max с переданными значениями аргументам 
+    Max(a1, b1, c1),        // Значения передаваемые аргументам
+    Max(a2, b2, c2),        // ----/----/----
+    Max(a3, b3, c3));       // ----/----/----
 
 // if (b1>max) max = b1;
-Console.WriteLine(max);
+Console.WriteLine(max);     // Вывод результат в консоль
