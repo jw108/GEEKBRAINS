@@ -6,3 +6,10 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125
  */
+Console.Write("Ведите число ");
+int num = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= num; i++)
+{
+    Console.Write($"{Math.Pow(i,3)} ");
+}
