@@ -1,24 +1,22 @@
-/* 
+﻿/* 
 Задача №20.
 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
 A (3,6); B (2,1) -> 5,09 
 A (7,-5); B (1,-1) -> 7,21
  */
-
+Console.Clear();
 Console.Write("Ведите десятичное число X1: ");
-double x1 = double.Parse(Console.ReadLine());
+double x1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Ведите десятичное число Y1: ");
-double y1 = double.Parse(Console.ReadLine());
+double y1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Ведите десятичное число X2: ");
-double x2 = double.Parse(Console.ReadLine());
+double x2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Ведите десятичное число Y2: ");
-double y2 = double.Parse(Console.ReadLine());
+double y2 = Convert.ToDouble(Console.ReadLine());
 
-double leght = Math.Sqrt(Math.Sqrt(x2-x1)+Math.Sqrt(y2-y1));
-
-
-Console.WriteLine(lenght);
+double distance = Math.Sqrt(Math.Sqrt(x2 - x1) + Math.Sqrt(y2 - y1));
+Console.WriteLine();
 
 /* 
 double Distance(double xA, double yA, double xB, double yB)
@@ -36,10 +34,10 @@ Console.Write("Input an y-coordonate of point B: ");
 double yB = Convert.ToDouble(Console.ReadLine());
 double distanceBetweenAB = Distance(xA, yA, xB, yB);
 Console.WriteLine($"Distance between points A and B is {distanceBetweenAB}.");
- */
+*/
 
- /* 
- Console.WriteLine("Введите координаты точки 1: ");
+/*
+Console.WriteLine("Введите координаты точки 1: ");
 
 string[] sArr = Console.ReadLine().Split(' ');
 int num1 = Convert.ToInt32(sArr[0]);

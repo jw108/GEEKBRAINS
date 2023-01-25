@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": []
   },
   "packageFolders": {
     "/Users/jw108/.nuget/packages/": {}
@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#10_MethodArray/Examples#10.csproj",
-      "projectName": "Examples#10",
-      "projectPath": "/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#10_MethodArray/Examples#10.csproj",
+      "projectUniqueName": "/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#10_MethodArray/Examples#10_MethodArray.csproj",
+      "projectName": "Examples#10_MethodArray",
+      "projectPath": "/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#10_MethodArray/Examples#10_MethodArray.csproj",
       "packagesPath": "/Users/jw108/.nuget/packages/",
       "outputPath": "/Users/jw108/Desktop/GEEKBRAINS/Examples/Examples#10_MethodArray/obj/",
       "projectStyle": "PackageReference",
@@ -23,14 +23,14 @@
         "/Users/jw108/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }
