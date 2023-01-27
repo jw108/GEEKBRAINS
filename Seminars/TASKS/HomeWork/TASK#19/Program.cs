@@ -23,10 +23,9 @@ if (userNum < 999)
     Console.WriteLine("Введите корректное число");
 }
 
-
 if (userNum > 9999)
 {
-    if ((userNum / 10000) == (userNum % 10) || ((userNum / 10000) == 0) && ((userNum % 10 == 0)))
+    if ((userNum / 10000) == (userNum % 10))
     {
         if (((userNum % 100) / 10) == (userNum % 10000) / 1000)
         {
@@ -39,3 +38,4 @@ if (userNum > 9999)
 
     else Console.WriteLine("Число не является палиндромным");
 }
+
