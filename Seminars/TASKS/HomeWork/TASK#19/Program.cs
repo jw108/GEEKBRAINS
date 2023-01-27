@@ -18,12 +18,8 @@ Console.Clear();
 Console.Write("Введите пятизначное палиндромное число для проверки: ");
 int userNum = int.Parse(Console.ReadLine());
 
-if (userNum < 999)
-{
-    Console.WriteLine("Введите корректное число");
-}
 
-if (userNum > 9999)
+if  (userNum > 9999 && userNum < 99999)
 {
     if ((userNum / 10000) == (userNum % 10))
     {
@@ -35,7 +31,6 @@ if (userNum > 9999)
             }
         }
     }
-
     else Console.WriteLine("Число не является палиндромным");
 }
-
+else Console.WriteLine("Введите корректное число");
