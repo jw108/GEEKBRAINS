@@ -5,4 +5,15 @@
 2, 4 -> 16
 
 */
+Console.Clear();
+Console.WriteLine("Введите два числа через пробел: ");
+string[] nums = Console.ReadLine().Split(" ");
+int userNum1 = Convert.ToInt32(nums[0]);
+int userNum2 = Convert.ToInt32(nums[1]);
 
+for (int i = 1 ;i<userNum2;i++)
+{   
+   int res= Math.Pow(userNum1,userNum2);
+   break;
+}
+Console.Write($"{res} ");

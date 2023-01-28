@@ -5,13 +5,13 @@
 89126 -> 5
  */
 Console.Clear();
-int CountOfNumber(int number)
+int CountOfNumber(int number) // Пользователь вводит требуемое число
 {
-    int count =0;
-    while(number >0)
+    int count =0;    // Создали счетчик подсчета кол-ва делений введенного числа
+    while(number >0) // Цикл работает пока number больше нуля
     {
-        number /=10;
-        count++;
+        number /=10; // получаем остаток от деления пока namber не станет нулем
+        count++;    // подсчитываем кол-во раз деления введенного числа 
     }
     return count;
 }

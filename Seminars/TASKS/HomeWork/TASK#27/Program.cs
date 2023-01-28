@@ -31,4 +31,4 @@ int[] toIntegerArray (int number)
     }
     return l.ToArray();
 }
-toIntegerArray();
+toIntegerArray(a);
