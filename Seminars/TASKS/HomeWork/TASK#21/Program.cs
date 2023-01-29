@@ -9,11 +9,7 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
  */
 
 Console.Clear();
-// double Distance(double X1, double X2, double Y1, double Y2, double Z1, double Z2)
-// {
-//      double length = Math.Sqrt((X2 - X1)) + Math.Sqrt(Y2 - Y1) + Math.Sqrt(Z2 - Z1);
-//      return Math.Round(length, 2);
-// }
+
 double Distance(double x1, double y1, double z1, double x2, double y2, double z2)
 {
     double length = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
