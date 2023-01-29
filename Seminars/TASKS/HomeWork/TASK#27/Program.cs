@@ -5,30 +5,43 @@
 9012 -> 12
 */
 
-// int[] FillArray()
-// {
-//     for (int i=0; i <= Count; i++)
-//     {
-
-//     }
-// }
-
-
 Console.Clear();
 Console.WriteLine("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
-//int[] array = int.Parse(num);
-//Console.WriteLine(array);
+string userNum = Console.ReadLine();
 
-int[] toIntegerArray (int number)
+int SecondSumm(string arg2)
 {
-    int a = number;
-    List<int> l = new List<int>();
-    while(a > 0)
-    {
-            l.Add(a % 10);
-            a = a / 10; 
-    }
-    return l.ToArray();
+int num = Convert.ToInt32(userNum);
+int num1 = num;
+int temp = 0;
+int res=0;
+int j=10;
+for (int i =0; i<userNum.Length;i++)
+{
+    temp = num1%10;
+    res = temp + res;
+    num1=num/j;
+    j*=10;
 }
-toIntegerArray(a);
+return res;
+}
+int r = SecondSumm(userNum);
+Console.WriteLine(r);
+
+
+/*
+int Summ(string arg)
+{
+    int temp = 0;
+    int result = 0;
+    for (int i = 0; i < arg.Length; i++)
+    {
+        temp = Convert.ToInt32(arg[i].ToString());  // .ToString() -  Для передачи строки а не символа в ToInt32
+        result = result + temp;
+    }
+    return result;
+}
+
+int a = Summ(userNum);
+Console.WriteLine($"Результом сложения цифр в числе {userNum} будет --> {a}");
+*/
