@@ -6,14 +6,19 @@
 
 */
 Console.Clear();
-Console.WriteLine("Введите два числа через пробел: ");
+Console.WriteLine("Введите два числа через пробел.\nПервое число возводимое в степень второго числа: ");
 string[] nums = Console.ReadLine().Split(" ");
 int userNum1 = Convert.ToInt32(nums[0]);
 int userNum2 = Convert.ToInt32(nums[1]);
 
-for (int i = 1 ;i<userNum2;i++)
-{   
-   int res= Math.Pow(userNum1,userNum2);
-   break;
+int Pow(int arg1, int arg2)
+{
+    int result =1 ;
+    for (int i = 0; i < arg2; i++)
+    {
+      result = result * arg1;
+    }
+    return result;
 }
-Console.Write($"{res} ");
+int res = Pow(userNum1,userNum2);
+Console.WriteLine(res);
