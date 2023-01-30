@@ -7,7 +7,8 @@ Console.Clear();
 int[] array = new int[8];
 FillArray();
 PrintArray(array);
-
+int res = Dif(array);
+Console.WriteLine(res);
 void FillArray()
 {
     for (int i = 0; i < array.Length; i++) array[i] = new Random().Next(0, 100);
@@ -24,3 +25,16 @@ void PrintArray(int[] arg)
     Console.WriteLine();
 }
 
+int Dif(int[] array)
+{
+    int result = 0;
+    int min = array[0];
+    int max = array[0];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] < min) min = array[i];
+        if (array[i] > max) max = array[i];
+    }
+    result = max - min;
+    return result;
+}
