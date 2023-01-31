@@ -7,7 +7,8 @@
 Console.Clear();
 int[] array = new int[8];
 FillArray();
-
+int res = Dif(array);
+PrintArray(array);
 void FillArray()
 {
     for (int i = 0; i < array.Length; i++) array[i] = new Random().Next(0, 100);
@@ -20,7 +21,7 @@ void PrintArray(int[] arg)
     {
         Console.Write(arg[i] + " ");
     }
-    Console.Write($"\b ] и их разность --> {res}");
+    Console.Write($"\b ] и их разность --> [{res}]");
 }   Console.WriteLine();
 
 int Dif(int[] array)
@@ -34,6 +35,6 @@ int Dif(int[] array)
         if (array[i] > max) max = array[i];
     }
     result = max - min;
-    Console.Write($"Максимальное {max} и минимальное {min} числа массива --> ");
+    Console.Write($"Максимальное [{max}] и минимальное [{min}] числа массива --> ");
     return result;
 }
