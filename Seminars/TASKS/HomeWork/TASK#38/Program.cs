@@ -7,8 +7,6 @@
 Console.Clear();
 int[] array = new int[8];
 FillArray();
-int res = Dif(array);
-PrintArray(array);
 
 void FillArray()
 {
