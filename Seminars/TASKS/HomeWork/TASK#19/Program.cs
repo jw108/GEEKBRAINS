@@ -34,7 +34,3 @@ if  (userNum > 9999 && userNum < 99999)
     else Console.WriteLine("Число не является палиндромным");
 }
 else Console.WriteLine("Введите корректное число");
-
-int num  = int.Parse(Console.ReadLine());
-foreach (var array in num.GetDigits());
-Console.WriteLine();
