@@ -10,15 +10,14 @@
 
 Console.Clear();
 
-int row = new Random().Next(3, 6);
 int col = new Random().Next(3, 6);
-int[,] array = new int[row, row];
+int[,] array = new int[col, col];
 
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
 
-AverOfAllCol(array, row);
+AverOfAllCol(array, col);
 
 Console.WriteLine();
 void FillArray(int[,] array)
@@ -43,9 +42,9 @@ void PrintArray(int[,] array)
     }
 }
 
-void AverOfAllCol(int[,] arr, int row)
+void AverOfAllCol(int[,] arr, int col)
 {
-    double[] avr = new double[row];
+    double[] avr = new double[col];
     Console.Write($"Среднее арифметическое каждого столбца:[");
     for (int i = 0; i < arr.GetLength(0); i++)
     {
@@ -53,8 +52,8 @@ void AverOfAllCol(int[,] arr, int row)
         for (int j = 0; j < arr.GetLength(1); j++)
         {
             temp += (arr[j, i]);
-            avr[i] = temp/row;
+            avr[i] = Math.Round((temp/col),2);
         }
         Console.Write($" {avr[i]+ ";"}");
-    }Console.Write(" ]");
+    }Console.Write("\b ]");
 }
