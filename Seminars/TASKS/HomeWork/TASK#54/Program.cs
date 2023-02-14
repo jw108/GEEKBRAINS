@@ -9,7 +9,7 @@
 9 5 3 2
 8 4 4 2
 */
-//Console.Clear();
+Console.Clear();
 Console.WriteLine("Данная программа упорядочивает числа лежащие в строках по убыванию");
 
 int row = new Random().Next(3, 6);
@@ -29,7 +29,7 @@ void FillArray(int[,] arr)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            arr[i, j] = random.Next(1, 20);
+            arr[i, j] = random.Next(1,20);
         }
     }
 }
