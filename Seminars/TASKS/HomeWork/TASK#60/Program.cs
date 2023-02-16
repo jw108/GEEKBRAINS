@@ -8,7 +8,7 @@
 */
 
 Console.Clear();
-Console.WriteLine("Данная программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов");
+Console.WriteLine("Данная программа сформирует трёхмерный массив из неповторяющихся двузначных чисел.");
 Console.WriteLine();
 int row = 2;
 int col = 2;
@@ -54,3 +54,4 @@ void PrintArray(int[,,] arr)
     }
     Console.WriteLine();
 }
+
