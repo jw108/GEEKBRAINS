@@ -7,43 +7,6 @@
 10 09 08 07
 */
 
-// Console.Clear();
-// Console.WriteLine("Данная программа заполнит спирально массив 4 на 4");
-// Console.WriteLine();
-// int row = 4;
-// int col = 4;
-
-// int[,] arr = new int[row, col];
-
-// FillArray(arr);
-// PrintArray(arr);
-// Console.WriteLine();
-
-// void FillArray(int[,] arr)
-// {
-//     Random random = new Random();
-//     for (int i = 0; i < arr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < arr.GetLength(1); j++)
-//         {
-//             arr[i, j] = random.Next(1, 17);
-//         }
-//     }
-// }
-
-// void PrintArray(int[,] arr)
-// {
-//     for (int i = 0; i < arr.GetLength(0); i++)
-//     {
-//         Console.WriteLine("");
-//         for (int j = 0; j < arr.GetLength(1); j++)
-//         {
-//             Console.Write($"{arr[i, j],4}");
-//         }
-//     }
-//     Console.WriteLine();
-// }
-
 Console.Clear();
 Console.WriteLine($"Задача 62: Заполните спирально массив 4 на 4.");
 
