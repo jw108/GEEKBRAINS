@@ -8,7 +8,7 @@
 */
 
 Console.Clear();
-Console.WriteLine($"Задача 62: Заполните спирально массив 4 на 4.");
+Console.WriteLine($"Программа заполняет спирально массив 4 на 4.");
 
 int row = 4;
 int col = 4;
